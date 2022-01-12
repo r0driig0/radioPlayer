@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeply": "npm run build",
-    "deply": "radio-page -d build",
+    "deploy": "radio-page -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
