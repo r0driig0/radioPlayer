@@ -1,4 +1,3 @@
-
 import './App.css';
 import PlayerMusic from './component/playerMusic';
 import RedesSociales from './component/RedesSociales';
