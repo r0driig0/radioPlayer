@@ -20,7 +20,7 @@ const InfoMusic = () => {
         .catch((err) => console.log(err));
     }
     audioPlayer();
-  },[ts]);	
+  },[]);	
 
   if (post.length === 0) {
     return <p>Loading...</p>;
