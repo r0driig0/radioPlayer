@@ -3,7 +3,7 @@
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #323232;
 }
 
@@ -11,7 +11,6 @@
 
 .containerInfo {
     display: flex;
-    
     justify-content: space-around;
     width: 500px;
     height: 50px;
@@ -20,8 +19,6 @@
     color: #323232;
     border-radius: 10px;
     margin: 3px;
-
-    
 };
 
 
