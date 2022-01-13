@@ -1,5 +1,6 @@
 import React from "react";
-import { AiFillFacebook, BsInstagram, BsSpotify, BsPaypal } from 'react-icons/all';
+import { AiFillFacebook } from 'react-icons/ai';
+import { BsInstagram, BsSpotify, BsPaypal } from 'react-icons/bs';
 import styles from "./redesSociales.module.css"
 
 
