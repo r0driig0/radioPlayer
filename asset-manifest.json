@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/radioPlayer/static/css/main.92669567.css",
+    "main.js": "/radioPlayer/static/js/main.1bd591c1.js",
+    "static/js/787.73888d4a.chunk.js": "/radioPlayer/static/js/787.73888d4a.chunk.js",
+    "static/media/rockandmore1.png": "/radioPlayer/static/media/rockandmore1.ec98d9fe5dea585f065f.png",
+    "index.html": "/radioPlayer/index.html",
+    "main.92669567.css.map": "/radioPlayer/static/css/main.92669567.css.map",
+    "main.1bd591c1.js.map": "/radioPlayer/static/js/main.1bd591c1.js.map",
+    "787.73888d4a.chunk.js.map": "/radioPlayer/static/js/787.73888d4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92669567.css",
+    "static/js/main.1bd591c1.js"
+  ]
+}
