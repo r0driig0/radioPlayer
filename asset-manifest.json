@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/radioPlayer/static/css/main.3f1006a1.css",
-    "main.js": "/radioPlayer/static/js/main.58567359.js",
-    "static/js/787.73888d4a.chunk.js": "/radioPlayer/static/js/787.73888d4a.chunk.js",
-    "static/media/rockandmore1.png": "/radioPlayer/static/media/rockandmore1.ec98d9fe5dea585f065f.png",
-    "index.html": "/radioPlayer/index.html",
-    "main.3f1006a1.css.map": "/radioPlayer/static/css/main.3f1006a1.css.map",
-    "main.58567359.js.map": "/radioPlayer/static/js/main.58567359.js.map",
-    "787.73888d4a.chunk.js.map": "/radioPlayer/static/js/787.73888d4a.chunk.js.map"
+    "main.css": "/static/css/main.3f1006a1.css",
+    "main.js": "/static/js/main.fe4f521b.js",
+    "static/js/787.73888d4a.chunk.js": "/static/js/787.73888d4a.chunk.js",
+    "static/media/rockandmore1.png": "/static/media/rockandmore1.ec98d9fe5dea585f065f.png",
+    "index.html": "/index.html",
+    "main.3f1006a1.css.map": "/static/css/main.3f1006a1.css.map",
+    "main.fe4f521b.js.map": "/static/js/main.fe4f521b.js.map",
+    "787.73888d4a.chunk.js.map": "/static/js/787.73888d4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f1006a1.css",
-    "static/js/main.58567359.js"
+    "static/js/main.fe4f521b.js"
   ]
 }
