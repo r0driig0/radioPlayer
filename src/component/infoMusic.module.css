@@ -1,9 +1,9 @@
 .container {
     width: 100%;
-    z-index: 1038;
+    height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #323232;
 }
 
@@ -11,7 +11,7 @@
 
 .containerInfo {
     display: flex;
-    position: relative;
+    
     justify-content: space-around;
     width: 500px;
     height: 50px;
@@ -19,12 +19,10 @@
     background-color: #fff;
     color: #323232;
     border-radius: 10px;
-    margin: 5px;
+    margin: 3px;
 
     
 };
 
-.containerInfo img {
-    border-radius: 10px;
-};
+
 

@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 5px;
     margin:auto;
@@ -10,8 +10,9 @@
 .icons {
     width: 30%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    background: white;
     
     
 }
