@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { Component, useState }  from "react";
+import React, { Component }  from "react";
 import { BsFillPlayFill, BsPause, BsVolumeDown, BsVolumeUp } from "react-icons/bs";
 import styles from "./playerMusic.module.css"
 import InfoMusic from "./infoMusic";

@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <div className={styles.imglogocontainer}>
-        <img className={styles.imglogo} src={require('./public/rockandmore1.png').default} alt="rockandmorelogo"/>
+        <img className={styles.imglogo} src={require('./public/rockandmore1.png')} alt="rockandmorelogo"/>
       </div>
       <div>
         <RedesSociales/>
