@@ -11,7 +11,7 @@ class PlayerMusic extends Component {
     state = {
       audio: new Audio(urlRadio),
       isPlaying: false,
-      volume: 0.5 
+      volume: 1.0 
     };
       playPause = () => {
         let isPlaying = this.state.isPlaying;
@@ -30,7 +30,17 @@ class PlayerMusic extends Component {
         let volume = this.state.volume;
         this.state.audio.volume = volume;
         console.log(volume)
-        if (volume === 0.5) {
+        if (volume === 1.0) {
+          this.setState({ volume: 0.9 });
+        } else if (volume === 0.9) {
+          this.setState({ volume: 0.8 });
+        } else if (volume === 0.8) {
+          this.setState({ volume: 0.7 });
+        } else if (volume === 0.7) {
+          this.setState({ volume: 0.6 });
+        } else if (volume === 0.6) {
+          this.setState({ volume: 0.5 });
+        } else if (volume === 0.5) {
           this.setState({ volume: 0.4 });
         } else if (volume === 0.4) {
           this.setState({ volume: 0.3 });
@@ -57,6 +67,16 @@ class PlayerMusic extends Component {
           this.setState({ volume: 0.4 });
         } else if (volume === 0.4) {
           this.setState({ volume: 0.5 });
+        } else if (volume === 0.5) {
+          this.setState({ volume: 0.6 });
+        } else if (volume === 0.6) {
+          this.setState({ volume: 0.7 });
+        } else if (volume === 0.7) {
+          this.setState({ volume: 0.8 });
+        } else if (volume === 0.8) {
+          this.setState({ volume: 0.9 });
+        } else if (volume === 0.9) {
+          this.setState({ volume: 1.0 });
         }
       }
 
@@ -65,15 +85,9 @@ class PlayerMusic extends Component {
         return (
           <div className={styles.container}>
             <div>
-              
-                <InfoMusic />
-              </div>
-            
-            {/* Show state of song on website */}
-              <p>
-                {this.state.volume ? "volume is " + this.state.volume : "volume is " + this.state.volume}
-                
-              </p>
+              <InfoMusic />
+            </div>
+      
             <div className={styles.playerContainer} >
               <div className={styles.controls}>
                 <i onClick={() => this.DownVolume()}>{<BsVolumeDown size={90}/>}</i>
