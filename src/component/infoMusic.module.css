@@ -12,14 +12,20 @@
 .containerInfo {
     display: flex;
     justify-content: space-around;
-    width: 500px;
+    width: 50%;
     height: 50px;
-    padding: 1px;
+    padding: 5px;
     background-color: #fff;
     color: #323232;
     border-radius: 10px;
     margin: 3px;
 };
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
 
 
 
