@@ -94,7 +94,7 @@ class PlayerMusic extends Component {
                 <i  onClick={this.playPause} >
                 {this.state.isPlaying ? <BsPause size={100}/> : <BsFillPlayFill size={100}/>} 
                 </i>
-                <i onClick={() => this.upVolume()}>{<BsVolumeUp size={90}/>}</i>
+                <i  onClick={() => this.upVolume()}>{<BsVolumeUp size={90}/>}</i>
               </div>
               
             </div>

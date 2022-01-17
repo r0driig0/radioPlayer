@@ -9,7 +9,7 @@ const redesSociales = () => {
     const facebookPage = "https://www.facebook.com/radiorockandmore/";
     const instagramPage = "https://www.instagram.com/radiorockandmore/";
     const spotifyPage = 'https://open.spotify.com/user/hvnl5md0ge4dp86abw4ko89by?si=f44d53cbf7444def';
-    const paypalPage = "https://www.paypal.com/donate?token=PTo0Y3tD3rypRGF-gfP363hIEsN7i04nsuK5xLFb5Orw8lVTutLj3m5xSEzP7xZSXCl0b5uvS1n4HnQI";
+    const paypalPage = "https://www.paypal.com/donate?token=bt3SN1nviBmzIOAkNMbGqBTg7b-SkT6rdhCOY83mr7jl3WQ9wKXJQswS1J-Le5GoqeKuiOTBDi5UP_Oa";
 
     return (
         <div>
