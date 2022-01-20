@@ -7,6 +7,7 @@ const InfoMusic = () => {
   const url = "https://streaming01.shockmedia.com.ar/cp/get_info.php?p=8616";
   
   const ts = new Date().getTime();
+  
 
   const [post, setPost] = useState([]);
     
@@ -20,7 +21,7 @@ const InfoMusic = () => {
         .catch((err) => console.log(err));
     }
     audioPlayer();
-  },[]);	
+  },[ts]);	
 
   if (post.length === 0) {
     return <p>Loading...</p>;

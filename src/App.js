@@ -7,6 +7,7 @@ import styles from './appContainer.module.css';
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -32,5 +33,6 @@ function App() {
     </div>
   );
 }
+setInterval(App, 1000);
 
 export default App;
