@@ -4,7 +4,7 @@ import { BsFillPlayFill, BsPause, BsVolumeDown, BsVolumeUp } from "react-icons/b
 import styles from "./playerMusic.module.css"
 import InfoMusic from "./infoMusic";
 
-const urlRadio = 'https://streaming01.shockmedia.com.ar/8616/;'
+const urlRadio = 'https://streaming01.shockmedia.com.ar/8616/;';
  
 class PlayerMusic extends Component {
     

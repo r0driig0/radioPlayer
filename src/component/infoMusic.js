@@ -6,7 +6,8 @@ import styles from "./infoMusic.module.css"
 const InfoMusic = () => {
   const url = "https://streaming01.shockmedia.com.ar/cp/get_info.php?p=8616";
   
-  const ts = new Date().getTime();
+  const ts = new Date().toLocaleTimeString();
+  ;
   
 
   const [post, setPost] = useState([]);
@@ -27,17 +28,21 @@ const InfoMusic = () => {
     return <p>Loading...</p>;
   } else {
     return (
+      
       <div className={styles.container}>
-        <li className={styles.containerInfo} key={post.id}>
+        <div className={styles.containerInfo} key={post.id}>
           <img src={post.art + "?r=" + ts} width={50} height={50} />
           <h3><marquee>{post.title}</marquee></h3>
           <p>Listeners: {post.listeners}</p>
-        </li>
+        </div>       
       </div>
+
     );
   }
 
   
 };
+
+setInterval(InfoMusic, 1000);
 
 export default InfoMusic;
