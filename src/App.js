@@ -4,10 +4,6 @@ import RedesSociales from './component/RedesSociales';
 import styles from './appContainer.module.css';
 
 
-
-
-
-
 function App() {
   return (
     <div className="App">
@@ -32,6 +28,7 @@ function App() {
       
     </div>
   );
+
 }
 
 export default App;

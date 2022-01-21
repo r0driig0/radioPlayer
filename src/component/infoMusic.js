@@ -7,9 +7,7 @@ const InfoMusic = () => {
   const url = "https://streaming01.shockmedia.com.ar/cp/get_info.php?p=8616";
   
   const ts = new Date().toLocaleTimeString();
-  ;
   
-
   const [post, setPost] = useState([]);
     
   useEffect(() => {
@@ -43,6 +41,5 @@ const InfoMusic = () => {
   
 };
 
-setInterval(InfoMusic, 1000);
 
 export default InfoMusic;
