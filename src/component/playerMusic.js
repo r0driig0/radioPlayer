@@ -29,7 +29,7 @@ class PlayerMusic extends Component {
 
         let volume = this.state.volume;
         this.state.audio.volume = volume;
-        console.log(volume)
+        
         if (volume === 1.0) {
           this.setState({ volume: 0.9 });
         } else if (volume === 0.9) {
@@ -56,7 +56,7 @@ class PlayerMusic extends Component {
 
         let volume = this.state.volume;
         this.state.audio.volume = volume;
-        console.log(volume)
+        
         if (volume === 0) {
           this.setState({ volume: 0.1 });
         } else if (volume === 0.1) {
