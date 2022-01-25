@@ -10,8 +10,9 @@
 .icons {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .donate {
@@ -29,6 +30,13 @@
         justify-content: space-between;
         align-items: center;
         padding: 50px;
+    }
+    .icons {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
     }
     .donate {
         padding: 35px;
